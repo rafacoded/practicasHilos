@@ -1,4 +1,5 @@
 package com.hilos.practica1.ej5;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -32,7 +33,7 @@ public class ReboteFrame extends JFrame implements Runnable {
 
                 g.setFont(new Font("Arial", Font.BOLD, 32));
                 g.setColor(Color.BLUE);
-                g.drawString("A", x, y);
+                g.drawString("·", x, y);
             }
         };
 
